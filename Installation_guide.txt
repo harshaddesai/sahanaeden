@@ -1,0 +1,18 @@
+
+Installation Guide:
+
+Basic requirements: appache server,postgresql
+
+1)Download the files from "https://github.com/harshaddesai/sahanaeden" repository
+2)Extract all the files.
+3)Copy "eden" folder in "web2py/application/" directory.
+4)Copy "web2py" folder in home directory to run server.
+5)run web2py server as "python web2py.py".
+6)Enter admin password.
+6)open the url displayed or "127.0.0.0:8000".
+7)go to "web2py->My Sites->eden" . At this step it will ask you to edit "models/000_config.py"
+8)open "web2py/applications/eden/models/000_config.py" and copy contents from "000_config.py" downloded from github, change username and password accordingly.
+9)Copy "sahanamod.war" file in "Apacheserver/webpps" folder and start server.This will generate sahanamod foder.
+10) Edit the "sahanamod/mypack/myconnections.java" file with your respective details.
+11) Run the server
+Done
